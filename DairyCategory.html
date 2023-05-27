@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dairy Section</title>
+        <script src="jsscript.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Dairy Section</h1>
+            <nav>
+              <ul>
+                <a href="homepage.html">Home</a>
+                <a href="productlist.html">Products</a>
+                <a href="checkout.html">Checkout</a>
+                <a href="FruitsCategory.html">Fruits Category</a>
+                <a href="VegetableCategory.html">Vegetable Category</a>
+                <a href="SnackCategory.html">Snack Category</a>
+              </ul>
+            </nav>
+        </header>
+
+        <input type="text" id="filterInput" placeholder="Search...">
+        <table border="1" id="productTable">
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Milk</td>
+                <td><section class="dairy1">
+                    <div class="milkimage">
+                      <img src="milk.jpg" alt="dairy 1" width="250" height="250">
+                    </div>
+                  </section>
+                </td>
+                <td>RM 7/ piece</td>
+              </tr>
+              <tr>
+                <td>Cheese</td>
+                <td><section class="dairy1">
+                    <div class="cheeseimage">
+                      <img src="cheese.jpg" alt="dairy 2" width="250" height="250">
+                    </div>
+                  </section>
+                </td>
+                <td>RM 5/ piece</td>
+              </tr>
+              <tr>
+                <td>Ice Cream yogurt</td>
+                <td><section class="dairy1">
+                    <div class="yogurtimage">
+                      <img src="yogurt.jpg" alt="dairy 3" width="250" height="250">
+                    </div>
+                  </section>
+                </td>
+                <td>RM 8/ piece</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <br>
+
+          <footer>
+            <p>&copy; 2023 My Grocery Shop. All rights reserved.</p>
+          </footer>
+          <style>
+            table {
+              width: 100%;
+               border-collapse: collapse;
+             }
+    
+            th, td {
+              padding: 8px;
+              text-align: center;
+             }
+    
+            th {
+              background-color: #f2f2f2;
+             }
+    
+            input[type="text"] {
+               width: 100%;
+               padding: 8px;
+              margin-bottom: 10px;
+             }
+
+             h1{
+              background-color:#333;
+              color:#f2f2f2;
+              padding: 20px;
+              text-align: center;
+              font-size: 36px;
+              text-transform: uppercase;
+              letter-spacing: 2px;
+              margin-bottom: 10px;
+          }
+
+          nav{
+            text-align: center;
+          }
+          footer{
+              text-align: center;
+              background-color:#333 ;
+              color: #f5f5f5;
+              padding: 20px;
+              text-transform: uppercase;
+              letter-spacing: 2px;
+              margin-bottom: 10px;
+            }
+            </style>
+          
+          
+        
+    </body>
+</html>
